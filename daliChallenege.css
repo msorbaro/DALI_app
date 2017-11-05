@@ -1,0 +1,193 @@
+/*Morgan Sorbaro
+Dali Application */
+
+/*Background slide 1*/
+#section0{
+  background-image:url("title_background.jpeg");
+  background-size: cover;
+}
+
+/*Nav bar lis preferences*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 130%;
+
+}
+/*lis element preferences*/
+li {
+    float: left;
+}
+
+/*links elemens*/
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+}
+
+/*Sets the yellow background for the whole about section*/
+#section1{
+  background-image: url("yellow.jpg")
+}
+
+/*Headers for the section one top text*/
+.header {
+  height: 80%;
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  display: block;
+
+}
+
+/*Text preferences for headers*/
+#section1 .header h1 {
+    font-size: 500%;
+    color: rgb(89, 170, 215);
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+/*Background image for experience section*/
+#section2{
+  background-image: url("blue.jpg")
+}
+
+/*about main text in the me section*/
+.main_text{
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-top: 3%;
+  color: rgb(6, 34, 58);
+  font-size: 200%;
+  line-height: 95%;
+
+}
+
+/*organizing paragraphs*/
+.main_text p {
+  padding-bottom: 2%;
+}
+
+/*puting in my photo*/
+.mepic{
+  padding-top: 3%;
+  text-align: justify;
+}
+
+/*makes the bold words in why dali section*/
+span {
+  color: rgb(89, 170, 215);
+  font-size: 115%;
+  font-family: 'Permanent Marker', cursive;
+
+}
+
+/*hobbies page*/
+#hobbies {
+  margin-left: 14%;
+  margin-right: 10%;
+}
+
+/*hobbies logo*/
+.logo{
+  padding: 2%;
+  display: inline;
+  vertical-align: center;
+  text-align: center;
+}
+
+/*hobbiesrow padding*/
+.row {
+  padding: 1%;
+}
+
+/*sizing hobbys image*/
+.logo img {
+  width: 50%;
+  height: 50%;
+}
+
+/*hobbies descriptions*/
+#description {
+  margin-right: 10%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 150%;
+  padding-left: 7%;
+  padding-right: 20%;
+  text-align: justify;
+  color: rgb(89, 170, 215);
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+
+}
+
+/*main about me text for intro*/
+.introinfo p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 130%;
+    text-align: justify;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 4%;
+    color: rgb(6, 34, 58);
+
+}
+/*makes the header nice*/
+.introinfo h2 {
+  padding-bottom: 2%;
+  font-size: 400%;
+  color: rgb(89, 170, 215);
+}
+
+/*makes he headers yellow*/
+#section2 .header h1 {
+    font-size: 500%;
+    color: rgb(242,207, 29);
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+/*formates the languages picture*/
+.language{
+  width: 80%;
+  height: 80%;
+}
+
+/*previouis eperience formatting*/
+.exp {
+  width: 80%;
+  height: 80%;
+}
+
+/*working on container*/
+.prevexp {
+  position: relative;
+}
+
+/*pararaph text information*/
+.prevexp p {
+  text-align: justify;
+  font-size: 95%;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(6, 34, 58);
+
+}
+
+/*header experience*/
+.prevexp h2 {
+  color: rgb(242,207, 29);
+  text-align: center;
+  font-size: 140%;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+
+}

@@ -1,0 +1,187 @@
+<!-- Morgan Sorbaro
+Dali Challenege  -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>fullPage.js A simple Demo</title>
+
+    <!-- JQuery -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+
+  <!-- CSS files, full page forked from the internet, the rest created by me -->
+  <link rel="stylesheet" type="text/css" href="fullPage.js/jquery.fullPage.css" />
+  <link rel="stylesheet" type="text/css" href="daliChallenege.css"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+    <!-- JQuery -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- JS files. Full page forked from the internet. JSfile by me.  -->
+  <script type="text/javascript" src="fullPage.js/vendors/scrolloverflow.js"></script>
+  <script type="text/javascript" src="jsfile.js"></script>
+  <script type="text/javascript" src="fullPage.js/jquery.fullPage.js"></script>
+
+  <!-- my fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+
+  <!-- bootstrapt -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- Fullpage js file says this is needed in the documentation. Sets links for the tabs  -->
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#fullpage').fullpage({
+        anchors: ['firstPage', 'secondPage', '3rdPage']
+
+      });
+    });
+  </script>
+
+</head>
+
+  <body>
+
+    <!-- Creates the menu bar at the top -->
+    <ul id="menu">
+    	<li data-menuanchor="firstPage"><a href="#firstPage">Home</a></li>
+    	<li data-menuanchor="secondPage"><a href="#secondPage">About</a></li>
+    	<li data-menuanchor="3rdPage"><a href="#3rdPage">Experience</a></li>
+    </ul>
+
+    <!-- Needed for the full page js to work  -->
+    <div id = "fullpage">
+      <!-- Intro page, nothing here  -->
+      <div class = "section" id = "section0">
+
+      </div>
+      <!-- Section 1 has about me things: contains 3 slide  -->
+      <div class = "section" id = "section1">
+        <!-- Slide that has the "about me" info first page  -->
+        <div class= "slide">
+          <div class="header">
+            <h1>About Me</h1>
+            <!-- Photo and text container -->
+            <div class = "container" id = "intro">
+              <div class="row">
+                <div class= "col-sm-6 mepicallign" >
+                  <img class="mepic" src = "me.png"> </img>
+                </div>
+                <div class ="col-sm-6 introinfo">
+                  <h2>Hello Hello!!</h2>
+                  <p>Welcome to my website! My name is Morgan and I am a 20 at Dartmouth College.
+                    I am a computer science major and potential art history minor originally from Connecticut.
+                   </p>
+                   <p> I hope you enjoy scrolling through this website and learning a bit about me :).
+                     Feel free to email ms.20@dartmouth.edu for any questions you may have!
+                   </p>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Next slide about why DALI  -->
+        <div class = "slide">
+          <div class = "header">
+            <h1>Why DALI</h1>
+            <div class = "main_text">
+              <p>Ever since the beginning of high school I have been interested in computer science because of my love
+              for <span>problem solving</span>. I LOVE coding and finding <span>creative solutions</span> for all situations. </p>
+              <p>The DALI Lab seems like such a <span>rewarding</span> experience because I will be able to work on teams with
+              other students and get to create projects for real people. I love <span>group projects</span> and would enjoy
+              meeting and working with my Dartmouth peers.</p>
+              <p>I also would love to <span>improve</span> my design and development skills. I know that through DALI I would
+              learn so many useful skills as well as improve the ones I currently.</p>
+          </div>
+          </div>
+
+        </div>
+        <!-- Slide about hobbies with skills and pictures -->
+        <div class = "slide">
+          <div class = "header">
+            <h1>Hobbies</h1>
+            <!-- Images for all skills in a 3x2 -->
+            <div class="container" id="hobbies">
+              <div class="row">
+                <div class="col-sm-3 logo">
+                  <img src = "ski1.png" class = "ski"> </img>
+                </div>
+                <div class="col-sm-3 logo">
+                  <img src = "yoga1.png" class="yoga"> </img>
+
+                </div>
+                <div class="col-sm-3 logo">
+                  <img src = "cupcake1.png" class="cupcake"> </img>
+
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-3 logo">
+                  <img src = "TV1.png" class="tv"> </img>
+                </div>
+                <div class="col-sm-3 logo">
+                  <img src = "coffee1.png" class="coffee"> </img>
+
+                </div>
+                <div class="col-sm-3 logo">
+                  <img src = "friends1.png" class="friends"> </img>
+                </div>
+              </div>
+              <!-- Will put description here when hover over images -->
+              <div class = "row" id = "description">
+                <p class="dtext"><p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- New down scroll- experience -->
+      <div class = "section" id = "section2">
+        <!-- picture of language experience  -->
+        <div class = "slide">
+          <div class = "header">
+            <h1>language experience</h1>
+            <img src = "l.png" class="language"></img>
+          </div>
+        </div>
+        <!-- Work previous experience slide  -->
+        <div class= "slide">
+          <div class = "header">
+            <h1>previous experience</h1>
+            <!-- Each job with picture -->
+            <div class="container prevexp">
+              <div class="row">
+                <div class="col-sm-3"><h2 class="liquidnetHead"></h2><p class="liquidnetText"></p></div>
+                <div class="col-sm-3 work liquidnet">
+                  <img src="liquidnet.png" class="exp liquidnetImg"></img>
+                </div>
+                <div class="col-sm-3 work amulet">
+                  <img src="amulet.png" class="exp amuletImg"></img>
+                </div>
+                <div class="col-sm-3"><h2 class="amuletHead"></h2><p class="amuletText"></p></div>
+              </div>
+              <div class="row">
+                <div class="col-sm-3"><h2 class="nsmrlHead"></h2><p class="nsmrlText"></p></div>
+                <div class="col-sm-3 work nsmrl">
+                  <img src="nsmrl.jpeg" class="exp nsmrlImg"></img>
+                </div>
+                <div class="col-sm-3 work ga">
+                  <img src="GA.jpg" class="exp gaImg"></img>
+                </div>
+                <div class="col-sm-3"><h2 class="gaHead"></h2><p class="gaText"></p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
